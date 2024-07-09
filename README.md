@@ -12,3 +12,6 @@ FootData Central is a platform that centralizes football statistics and live sco
 1. Clone the repository:
    ```bash
    git clone https://github.com/math198512/api-node.git
+2. Navigate to the project directory:
+   ```bash
+   git clone https://github.com/math198512/api-node.git
