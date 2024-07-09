@@ -20,5 +20,7 @@ FootData Central is a platform that centralizes football statistics and live sco
    npm install
 4. Set up the database:
    - set up the schema through Prisma ORM
-5. Configure environment variables:
-   - Create a `.env` file in the root directory.
+## Usage
+1. Start the server:
+   ```bash
+   npm start
