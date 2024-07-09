@@ -11,7 +11,14 @@ FootData Central is a platform that centralizes football statistics and live sco
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/math198512/api-node.git
+   git clone https://github.com/math198512/footdata-central.git
 2. Navigate to the project directory:
    ```bash
-   git clone https://github.com/math198512/api-node.git
+   cd footdata-central
+3. Install dependencies:
+   ```bash
+   npm install
+4. Set up the database:
+   - set up the schema through Prisma ORM
+5. Configure environment variables:
+   - Create a `.env` file in the root directory.
