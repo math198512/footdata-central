@@ -6,10 +6,9 @@ FootData Central is a platform that centralizes football statistics and live sco
 - **[Deployed Site](http://your-deployed-site-url.com)**
 - **[Final Project Blog Article](http://your-blog-article-url.com)**
 - **Author(s) LinkedIn**: 
-  - [Author 1](https://www.linkedin.com/in/author1)
-  - [Author 2](https://www.linkedin.com/in/author2)
+  - [Tarik HORAICHI](https://www.linkedin.com/in/tarik-horaichi-b37b1291/)
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/footdata-central.git
+   git clone https://github.com/math198512/api-node.git
