@@ -24,3 +24,19 @@ FootData Central is a platform that centralizes football statistics and live sco
 1. Start the server:
    ```bash
    npm start
+2. Open your browser and navigate to `http://localhost:3000`
+## Contributing
+We welcome contributions! To contribute:
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+3. Make your changes and commit them:
+   ```bash
+   git commit -m 'Add some feature'
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+5. Open a pull request.
+## Licensing
+This project is licensed under the MIT License. See the LICENSE file for details.
