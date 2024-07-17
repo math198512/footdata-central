@@ -3,9 +3,13 @@ import { body, oneOf, validationResult } from "express-validator";
 import { handleInputErrors } from './modules/middleware';
 import { createProduct, deleteProduct, getOneProduct, getProducts, updateProduct } from './handlers/product';
 import { createUpdate, deleteUpdate, getOneUpdate, getUpdates, updateUpdate } from './handlers/update';
+import { getTeams } from './handlers/team';
 
 
 const router = Router()
+
+router.get('/teams/:league/:season', getTeams)
+
 
 /**
  * Product
