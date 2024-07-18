@@ -3,12 +3,12 @@ var request = require("request");
 
 
 
-// Get Teams with given league and season
-export const getTeams = async (req, res) => {
+// Get Players with given Team
+export const getPlayers = async (req, res) => {
     var options = {
         method: 'GET',
-        url: 'https://v3.football.api-sports.io/teams',
-        qs: {league: req.params.league, season: req.params.season},
+        url: 'https://v3.football.api-sports.io/players/squads',
+        qs: {team: req.params.team},
         headers: {
             //'x-rapidapi-host': 'v3.football.api-sports.io',
             "x-apisports-key": process.env.API_FOOTBALL_KEY
@@ -17,10 +17,9 @@ export const getTeams = async (req, res) => {
         request(options, function (error, response, body) {
             if (error) throw new Error(error);
         
-            res.json(body)["response"];
+            res.json(JSON.parse(body)["response"]);
         });
 }
-
 
 
 

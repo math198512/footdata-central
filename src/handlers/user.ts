@@ -18,6 +18,9 @@ export const createNewUser = async (req, res, next) => {
     }
 }
 
+
+
+
 export const signin = async (req, res) =>{
     const user = await prisma.user.findUnique({
         where: {
